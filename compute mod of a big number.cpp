@@ -20,4 +20,4 @@ int main()
 	cout << mod(num, 2147483647);
 	return 0;
 }
-
+///TANVER AHMED LIKHON

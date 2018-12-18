@@ -33,7 +33,8 @@ void factorize(long long n)
 // driver program to test the above function
 int main()
 {
-	long long n = 6;
+    long long n;
+	while(cin>>n&&n!=EOF)
 	factorize(n);
 	return 0;
 }
