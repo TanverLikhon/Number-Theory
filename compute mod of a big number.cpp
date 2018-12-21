@@ -16,8 +16,8 @@ long long res = 0;
 // Driver program
 int main()
 {
-	string num = "457702282830189645355511537091";
-	cout << mod(num, 2147483647);
+	string num = "1010101";
+	cout << mod(num, 131071);
 	return 0;
 }
 ///TANVER AHMED LIKHON
