@@ -19,7 +19,6 @@ int nCrModpDP(int n, int r, int p)
 		// Fill entries of current row using previous
 		// row values
 		for (int j = min(i, r); j > 0; j--)
-
 			// nCj = (n-1)Cj + (n-1)C(j-1);
 			C[j] = (C[j] + C[j-1])%p;
 	}
